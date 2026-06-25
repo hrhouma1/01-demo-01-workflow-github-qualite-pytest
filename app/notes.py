@@ -4,7 +4,6 @@ Ce module est volontairement simple afin de servir de support pédagogique
 pour illustrer les tests unitaires (pytest) et l'intégration continue (CI).
 """
 
-
 def valider_note(note: float) -> None:
     """Vérifie qu'une note est un nombre compris entre 0 et 100.
 
