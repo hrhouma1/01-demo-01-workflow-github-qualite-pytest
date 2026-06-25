@@ -78,4 +78,4 @@ def est_reussi(moyenne: float) -> bool:
         True si la moyenne est supérieure ou égale à 60, sinon False.
     """
     valider_note(moyenne)
-    return moyenne >= 60
+    return moyenne > 60
